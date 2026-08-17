@@ -1,0 +1,35 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 16px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.card-text {
+    font-size: 14px;
+    line-height: 20px;
+    overflow-wrap: break-word;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    overflow-wrap: break-word;
+}
+
+.user-info {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-block: 8px;
+}
+
+.reaction-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
